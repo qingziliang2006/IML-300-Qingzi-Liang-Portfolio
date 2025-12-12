@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact • Zoe Leung — Interactive Media</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <meta name="color-scheme" content="dark light"/>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container">
+    <div class="brand"><span class="dot"></span><span>Zoe Leung — Interactive Media</span></div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="works.html">Works</a>
+      <a href="journal.html">Journal</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </div>
+  </nav>
+</header>
+<main class="container">
+
+<section class="card">
+  <h1>Contact</h1>
+  <form class="card" onsubmit="alert('This is a static portfolio prototype.'); return false;">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Your name" style="width:100%;padding:12px;border-radius:12px;border:1px solid var(--ring);background:var(--panel);color:var(--text);margin:6px 0 12px">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="name@email.com" style="width:100%;padding:12px;border-radius:12px;border:1px solid var(--ring);background:var(--panel);color:var(--text);margin:6px 0 12px">
+    <label for="msg">Message</label>
+    <textarea id="msg" name="msg" rows="5" placeholder="Say hello…" style="width:100%;padding:12px;border-radius:12px;border:1px solid var(--ring);background:var(--panel);color:var(--text);margin:6px 0 12px"></textarea>
+    <button class="btn" type="submit">Send</button>
+  </form>
+</section>
+
+</main>
+<footer class="container footer">
+  <div>© 2025 Zoe Leung. Portfolio prototype for IML300.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
